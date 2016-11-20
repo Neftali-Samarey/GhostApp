@@ -1,0 +1,48 @@
+/* Member Styling */
+
+.smallText {
+  font-size: 20px;
+}
+
+
+.member {
+  display: inline-block;
+  overflow: auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 136px; height: auto;
+    margin-top: 10px;
+    margin-bottom: 1px;
+/*    background-image: url(img/image.png);*/
+}
+
+
+
+#developers {
+  /*border: 1px solid red;*/
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.memberBox {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /*border: 1px solid blue;*/
+  max-width: 30vw;
+  width: 30vw;
+}

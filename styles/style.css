@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.latoFont {
+    font-family: 'Lato', sans-serif;
+}
+
+#scrollTop {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  background-color: #34495e;
+  padding: 8px 8px 8px 8px;
+  border-radius: 3px;
+  color: #fff;
+
+}
+#scrollTop a {
+  color: #fff;
+  text-decoration: none;
+}
+#scrollTop a:visited {
+  color: #fff;
+}
+
+.banner {
+    background-color: #e67e22;
+    height: 100vh;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+nav {
+
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    top: 7.5vh;
+    right: 4.3vw;
+}
+
+nav a {
+    transition: 0.6s;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 20px;
+    font-size: 23px;
+}
+nav a:hover {
+
+    color: #f39c12;
+}
+
+nav ul {
+
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+#intro {
+    position: absolute;
+    top: 35vh; left:10vw;
+    border: none;
+
+}
+
+#appPreview img {
+    height: auto; width: 55vw;
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #787878;
+    font-size: 2em;
+}
+
+#purpose {
+  height: 100vh;
+}
+
+.articleFormatting {
+  padding-top: 15%;
+  max-width: 75vw;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sections */
+#objective {
+  height: 100vh;
+}
+
+#objective ul li {
+  list-style: none;
+}
+
+#team {
+  height: 100vh;
+
+}
+
+article {
+    font-family: 'Lato', sans-serif;
+    color: #787878;
+    font-size: 1.4em;
+}
+
+
+
+ul.a{
+    list-style-type: circle;
+}
+
+.purpose li {
+    display: block;
+    list-style-type: circle;
+}
+
+
+
+#downloadButton {
+    transition: 0.6s;
+    border: 1.5px solid #fff;
+    height: 8vh; width: 30vw;
+    font-size: 30px;
+    color: #fff;
+    background: transparent;
+    border-radius: 5px;
+
+}
+
+#downloadButton:hover {
+    background-color: #f39c12;
+}
+
+
+
+footer {
+
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #787878;
+}
